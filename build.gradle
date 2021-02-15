@@ -22,7 +22,16 @@ dependencies {
 
 	compile group: 'mysql', name: 'mysql-connector-java'
 	compile group: 'org.modelmapper', name: 'modelmapper', version: '2.3.8'
-	compile group: 'com.fasterxml.jackson.dataformat', name: 'jackson-dataformat-xml'
+//	compile group: 'com.fasterxml.jackson.dataformat', name: 'jackson-dataformat-xml'
+//	compile group: 'com.fasterxml.jackson.core', name: 'jackson-annotations'
+//	compile group: 'com.fasterxml.jackson.core', name: 'jackson-core'
+//	compile group: 'com.fasterxml.jackson.core', name: 'jackson-databind'
+	// https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-webflux
+	compile group: 'org.springframework.boot', name: 'spring-boot-starter-webflux', version: '2.4.2'
+	// https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-security
+	compile group: 'org.springframework.boot', name: 'spring-boot-starter-security', version: '2.4.2'
+
+
 
 	compileOnly 'org.projectlombok:lombok'
 
